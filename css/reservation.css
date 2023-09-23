@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,500&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inria Serif", serif;
+}
+
+body {
+    background-color: #F2E5C7;
+    overflow-x: hidden;
+    font-size: 16px;
+}
+
+/* Awal CSS Navbar */
+
+.navbar .navbar-brand img {
+    width: 16%;
+    height: 16%;
+  }
+  
+.reservation{
+    padding: 5rem 0;
+}
+.title{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+h3 {
+    justify-content: center;
+    text-align: center;
+    letter-spacing: 0.25rem;
+    line-height: 1.25;
+    margin-bottom: 0.75rem;
+    font-size: 1.25rem;
+}
+
+.space {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button{
+    padding: 10px 25px;
+    font-size: 0.9rem;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #420101;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 5px #999;
+
+}
+.button:hover {
+    background-color: #bd1010
+}
+  
+.button:active {
+    background-color: #bd1010;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+span{
+    font-weight: 700;
+    color: #420101;
+}
+.msg{
+    justify-content: end;
+    align-items: end;
+    text-align: end;
+    margin-top: 15px;
+}
+
+footer {
+    background-color: rgb(36, 17, 1);
+  }
+  .footercontainer {
+    width: 100%;
+    padding: 70px 30px 20px;
+  }
+  
+  .socialicons {
+    display: flex;
+    justify-content: center;
+  }
+  .socialicons a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: rgb(36, 17, 1);
+    margin: 10px;
+    border-radius: 50%;
+  }
+  .socialicons a i {
+    font-size: 1.8em;
+    color: white;
+    opacity: 0.9;
+  }
+  /* efek hover pada ikon media sosial */
+  .socialicons a:hover {
+    background-color: black;
+    transition: 0, 5s;
+  }
+  .socialicons a:hover i {
+    background-color: black;
+    transition: 0.5s;
+  }
+  .footernav ul {
+    display: flex;
+    justify-content: center;
+    color: white;
+  }
+  .footerbottom {
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+  }
+  .footerbottom p {
+    color: white;
+  }
+  .text {
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+  }
+  
